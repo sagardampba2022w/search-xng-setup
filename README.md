@@ -38,7 +38,7 @@ docker compose pull
 docker compose up -d
 ```
 
-SearXNG settings live in [`core-config/settings.yml`](core-config/settings.yml). The Valkey service is included for SearXNG features that need persistent state, such as rate limiting.
+SearXNG settings live in [`core-config/settings.yml`](core-config/settings.yml). The default configuration uses a broad mix of general web and reference search sources. The Valkey service is included for SearXNG features that need persistent state, such as rate limiting.
 
 ## Security note
 
