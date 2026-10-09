@@ -1,23 +1,4 @@
-use_default_settings:
-  engines:
-    keep_only:
-      - google
-      - bing
-      - brave
-      - duckduckgo
-      - wikipedia
-
-engines:
-  - name: google
-    disabled: false
-  - name: bing
-    disabled: false
-  - name: brave
-    disabled: false
-  - name: duckduckgo
-    disabled: false
-  - name: wikipedia
-    disabled: false
+use_default_settings: true
 
 general:
   instance_name: "Local SearXNG"
